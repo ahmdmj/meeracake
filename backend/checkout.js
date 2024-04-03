@@ -13,7 +13,7 @@ function updateTotalPrice() {
 
       if (quantity > 0) {
         var variantName = $(this).closest('.d-flex').find('p').text();
-        orderList.append(`<li><p class="text-dark">${variantName} - ${quantity} x Rp. ${price} = Rp. ${subTotal}</p></li>`);
+        orderList.append(`<li id="list-pesanan"><p class="text-dark">${variantName} - ${quantity} x Rp. ${price} = Rp. ${subTotal}</p></li>`);
       }
     });
 
@@ -21,8 +21,34 @@ function updateTotalPrice() {
   }
 
   function submitForm() {
-    
-  }
+
+    // var formData = $('checkoutForm').serializeArray();
+
+    // formData = formData.filter(function(field) {
+    //   return field.name !== '_token';
+    // });
+
+    var productName = $('#product').val();
+    var orderList = $('#orderList');
+    var message = '';
+
+    if (orderList.children().length === 0) {
+      alert('Anda belum menambahkan pesanan. Harap pilih item untuk dipesan.');
+      return;
+    }
+
+    var message = `Halo, saya ingin konfirmasi ${productName} test:\n`;
+
+    orderList.find('li').each(function() {
+        var productName = $(this).text();
+        message += productName + '\n';
+    });
+
+    var whatsappUrl = `https://api.whatsapp.com/send?phone=6281222178656&text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappUrl, '_blank');
+
+    }
 
   $('.input-group').on('click', '.button-plus', function(e) {
     incrementValue(e);
