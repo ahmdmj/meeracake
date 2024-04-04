@@ -157,7 +157,7 @@ $(document).ready(function () {
         message += "Total : " + totalPrice;
 
         // Mengarahkan ke aplikasi WhatsApp dengan pesan otomatis
-        window.location.href = `https://wa.me/6281245758576/?text=${encodeURIComponent(message)}`;
+        window.location.href = `https://wa.me/+6282177561640/?text=${encodeURIComponent(message)}`;
     });
 
 
