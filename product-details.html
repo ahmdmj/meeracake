@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Home</title>
+  <title>Product - Details</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -45,11 +45,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#features">Pelayanan</a></li>
-          <li><a class="nav-link scrollto" href="#produk">Produk</a></li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#portfolio">Beli Yuk</a></li>
+          <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+          <li><a class="nav-link scrollto" href="index.html#pelayanan">Pelayanan</a></li>
+          <li><a class="nav-link scrollto" href="products.html">Produk</a></li>
+          <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -75,15 +74,12 @@
     <!-- ======= Portfolio Details Section ======= -->
     <section id="portfolio-details" class="portfolio-details">
       <div class="container">
-
         <div class="row gy-4">
-
           <div class="col-lg-8">
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
-
                 <div class="swiper-slide">
-                  <img src="assets/img/detail-pesanan/hazelnutflakes.jpg" alt="">
+                  <img id="product-image" src="" alt="">
                 </div>
               </div>
               <div class="swiper-pagination"></div>
@@ -92,96 +88,49 @@
 
           <div class="col-lg-4">
             <div class="portfolio-info">
-              <h4 class="d-flex justify-content-between align-items-center mb-3">
-                <span class="text-primary">Detail Pesanan</span>
+              <h4 class="d-flex justify-content-between align-items-center mb-3 display-6">
+                <span style="color: #A25021;">Detail Pesanan</span>
               </h4>
-              <ul class="list-group mb-3">
-                <li class="list-group-item d-flex justify-content-between lh-sm">
-                  <div>
-                    <h6 class="my-0">Product name</h6>
-                    <small class="text-body-secondary">Hazelnut Flakes</small>
-                  </div>
-                </li>
-                <form class="p-2" id="checkoutForm">
-                  <input type="hidden" name="product" id="product" value="Hazelnut Flakes">
-                  <ul class="list-group mb-3">
-                    <li class="list-group-item d-flex justify-content-between lh-sm">
-                      <div>
-                        <h6 class="my-0 mb-3">Pilih Varian</h6>
-                        <small class="text-body-secondary">
-                          <div class="variant-container">
-                              <div class="row mb-8 justify-content-center ">
-                              <div class="col-md-12 col-12">
-                                  <div class="row">
-                                    <div class="col-12">
-                                      <div class="d-flex justify-content-between">
-                                          <div>
-                                            <input type="hidden" name="varian1" value="32000">
-                                            <p class="text-dark">32K / 250gr</p>
-                                          </div>
-                                          <div class="input-group w-auto justify-content-end align-items-center">
-                                            <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 " data-field="quantity">
-                                            <input type="number" step="1" max="10" value="0" name="quantity" class="quantity-field border-0 text-center w-25">
-                                            <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm " data-field="quantity">
-                                          </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-12">
-                                      <div class="d-flex justify-content-between">
-                                          <div>
-                                            <input type="hidden" name="varian2" value="58000">
-                                            <p class="text-dark">58K / 500gr</p>
-                                          </div>
-                                          <div class="input-group w-auto justify-content-end align-items-center">
-                                            <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 " data-field="quantity">
-                                            <input type="number" step="1" max="10" value="0" name="quantity" class="quantity-field border-0 text-center w-25">
-                                            <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
-                                          </div>
-                                      </div>
-                                    </div>
-                                    <div class="col-12">
-                                      <div class="d-flex justify-content-between">
-                                          <div>
-                                            <input type="hidden" name="varian3" value="110000">
-                                            <p class="text-dark">110K / 1kg</p>
-                                          </div>
-                                          <div class="input-group w-auto justify-content-end align-items-center">
-                                            <input type="button" value="-" class="button-minus border rounded-circle  icon-shape icon-sm mx-1 lh-0" data-field="quantity">
-                                            <input type="number" step="1" max="10" value="0" name="quantity" class="quantity-field border-0 text-center w-25">
-                                            <input type="button" value="+" class="button-plus border rounded-circle icon-shape icon-sm lh-0" data-field="quantity">
-                                          </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                        </small>
+              <form class="p-2" id="checkoutForm">
+                <ul class="list-group mb-3">
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">Nama Produk</h6>
+                      <small id="product-name-detail" style="color: #A25021;"></small>
+                    </div>
+                    </h4>
+                  </li>
+                </ul>
+                <input type="hidden" name="product" id="product" value="">
+                <ul id="variant-list" class="list-group mb-3"></ul>
+                <ul class="list-group mb-3">
+                  <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                      <h6 class="my-0">Daftar Pesanan</h6>
+                      <div class="input-group w-auto justify-content-end align-items-center">
+                        <ul id="orderList" class="text-body-emphasis"></ul>
                       </div>
-                    </li>
-              
-                    <li class="list-group-item d-flex justify-content-between lh-sm">
-                      <div>
-                        <h6 class="my-0">Daftar Pesanan</h6>
-                        <div class="input-group w-auto justify-content-end align-items-center">
-                          <ul id="orderList" class="text-body-secondary"></ul>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between">
-                      <span>Total (Rupiah)</span>
-                      <strong id="totalPrice">Rp. 0</strong>
-                    </li>
-                  </ul>
-                  <button class="w-100 btn btn-primary btn-lg" type="button" onclick="submitForm()">Continue to checkout</button>
-                </form>
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (Rupiah)</span>
+                    <strong id="totalPrice">Rp. 0</strong>
+                  </li>
+                </ul>
+                <button class="btn-buy w-100" type="button" id="continueToCheckout">Continue to
+                  checkout</button>
+              </form>
             </div>
-
           </div>
-
         </div>
-
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </section>
+    <!-- End Portfolio Details Section -->
+
+
+
+
+
 
   </main><!-- End #main -->
 
@@ -208,11 +157,11 @@
           <div class="col-lg-2 col-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="index.html">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Pelayanan</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="index.html">Produk</a></li>
-              <li><i class="bi bi-chevron-right"></i>
+              <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+              <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+              <li><a class="nav-link scrollto" href="index.html#pelayanan">Pelayanan</a></li>
+              <li><a class="nav-link scrollto" href="products.html">Produk</a></li>
+              <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
             </ul>
           </div>
 
@@ -265,7 +214,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <script src="backend/checkout.js"></script>
+  <script src="product-details.js"></script>
 
 </body>
 
