@@ -23,23 +23,23 @@
     },
     {
         "id": 2,
-        "name": "Choco Crumble",
-        "image": "https://mavin.my.id/assets/chococrumble.jpg",
+        "name": "Beng-Beng",
+        "image": "https://mavin.my.id/assets/beng-beng.jpg",
         "variants": [
             {
-                "variantPrice": "30K",
+                "variantPrice": "28K",
                 "variantName": "250gr",
-                "price": 30000
+                "price": 28000
             },
             {
-                "variantPrice": "56K",
+                "variantPrice": "52K",
                 "variantName": "500gr",
-                "price": 56000
+                "price": 52000
             },
             {
-                "variantPrice": "106K",
+                "variantPrice": "102K",
                 "variantName": "1kg",
-                "price": 106000
+                "price": 102000
             }
         ]
     },
@@ -155,23 +155,23 @@
     },
     {
         "id": 8,
-        "name": "Beng-Beng",
-        "image": "https://mavin.my.id/assets/beng-beng.jpg",
+        "name": "Choco Crumble",
+        "image": "https://mavin.my.id/assets/chococrumble.jpg",
         "variants": [
             {
-                "variantPrice": "28K",
+                "variantPrice": "30K",
                 "variantName": "250gr",
-                "price": 28000
+                "price": 30000
             },
             {
-                "variantPrice": "52K",
+                "variantPrice": "56K",
                 "variantName": "500gr",
-                "price": 52000
+                "price": 56000
             },
             {
-                "variantPrice": "102K",
+                "variantPrice": "106K",
                 "variantName": "1kg",
-                "price": 102000
+                "price": 106000
             }
         ]
     },
@@ -310,11 +310,11 @@
     {
         "id": 16,
         "name": "Kue Sus",
-        "image": "https://mavin.my.id/assets/kuesus.jpg",
+        "image": "https://drscdn.500px.org/photo/1089826253/q%3D80_m%3D600/v2?sig=84eee9406cdc18e6f5609d7be51269579a0505f2aa2d6634b1c0989c932f0879",
         "variants": [
             {
                 "variantPrice": "25K",
-                "variantName": "10 pcs",
+                "variantName": "",
                 "price": 25000
             }
         ]
@@ -347,6 +347,18 @@
         "id": 19,
         "name": "Rollcake Choco Oreo",
         "image": "https://mavin.my.id/assets/rollcake-chocooreo.jpeg",
+        "variants": [
+            {
+                "variantPrice": "25K",
+                "variantName": "",
+                "price": 25000
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Bolu Pisang",
+        "image": "https://drscdn.500px.org/photo/1089826531/q%3D80_m%3D600/v2?sig=f017112c4ffccfc07697c797af39034c59ab54a0245d815b1ac55c021bdd50a4",
         "variants": [
             {
                 "variantPrice": "25K",
