@@ -44,7 +44,7 @@
 <br />
 
 <div align="center"> 
-  <img src=".github/screnshot.png" alt="screenshot" />
+  <img src=".github/screnshot.jpg" alt="screenshot" />
 </div>
 
 <br />
