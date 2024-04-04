@@ -1,0 +1,358 @@
+[
+    {
+        "id": 1,
+        "name": "Hazelnut Flakes",
+        "image": "https://mavin.my.id/assets/hazelnutflakes.jpg",
+        "variants": [
+            {
+                "variantPrice": "32K",
+                "variantName": "250gr",
+                "price": 32000
+            },
+            {
+                "variantPrice": "58K",
+                "variantName": "58K / 500gr",
+                "price": 58000
+            },
+            {
+                "variantPrice": "110K",
+                "variantName": "110K / 1kg",
+                "price": 110000
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Choco Crumble",
+        "image": "https://mavin.my.id/assets/chococrumble.jpg",
+        "variants": [
+            {
+                "variantPrice": "30K",
+                "variantName": "250gr",
+                "price": 30000
+            },
+            {
+                "variantPrice": "56K",
+                "variantName": "500gr",
+                "price": 56000
+            },
+            {
+                "variantPrice": "106K",
+                "variantName": "1kg",
+                "price": 106000
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Choco Stick",
+        "image": "https://mavin.my.id/assets/chocostick.jpg",
+        "variants": [
+            {
+                "variantPrice": "29K",
+                "variantName": "250gr",
+                "price": 29000
+            },
+            {
+                "variantPrice": "55K",
+                "variantName": "500gr",
+                "price": 55000
+            },
+            {
+                "variantPrice": "105K",
+                "variantName": "1kg",
+                "price": 105000
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Mente",
+        "image": "https://mavin.my.id/assets/mente.jpg",
+        "variants": [
+            {
+                "variantPrice": "28,5K",
+                "variantName": "250gr",
+                "price": 28500
+            },
+            {
+                "variantPrice": "53K",
+                "variantName": "500gr",
+                "price": 53000
+            },
+            {
+                "variantPrice": "103K",
+                "variantName": "1kg",
+                "price": 103000
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Nastar",
+        "image": "https://mavin.my.id/assets/Nastar.jpg",
+        "variants": [
+            {
+                "variantPrice": "28,5K",
+                "variantName": "250gr",
+                "price": 28500
+            },
+            {
+                "variantPrice": "53K",
+                "variantName": "500gr",
+                "price": 53000
+            },
+            {
+                "variantPrice": "103K",
+                "variantName": "1kg",
+                "price": 103000
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Choco Chips",
+        "image": "https://mavin.my.id/assets/chocochips.jpg",
+        "variants": [
+            {
+                "variantPrice": "28K",
+                "variantName": "250gr",
+                "price": 28000
+            },
+            {
+                "variantPrice": "52K",
+                "variantName": "500gr",
+                "price": 52000
+            },
+            {
+                "variantPrice": "102K",
+                "variantName": "1kg",
+                "price": 102000
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Sagu Keju",
+        "image": "https://mavin.my.id/assets/sagukeju.jpg",
+        "variants": [
+            {
+                "variantPrice": "28K",
+                "variantName": "250gr",
+                "price": 28000
+            },
+            {
+                "variantPrice": "52K",
+                "variantName": "500gr",
+                "price": 52000
+            },
+            {
+                "variantPrice": "102K",
+                "variantName": "1kg",
+                "price": 102000
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Beng-Beng",
+        "image": "https://mavin.my.id/assets/beng-beng.jpg",
+        "variants": [
+            {
+                "variantPrice": "28K",
+                "variantName": "250gr",
+                "price": 28000
+            },
+            {
+                "variantPrice": "52K",
+                "variantName": "500gr",
+                "price": 52000
+            },
+            {
+                "variantPrice": "102K",
+                "variantName": "1kg",
+                "price": 102000
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Bola Rambutan",
+        "image": "https://mavin.my.id/assets/bolarambutan.jpg",
+        "variants": [
+            {
+                "variantPrice": "28K",
+                "variantName": "250gr",
+                "price": 28000
+            },
+            {
+                "variantPrice": "52K",
+                "variantName": "500gr",
+                "price": 52000
+            },
+            {
+                "variantPrice": "102K",
+                "variantName": "1kg",
+                "price": 102000
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Putri Salju",
+        "image": "https://mavin.my.id/assets/putrisalju.jpg",
+        "variants": [
+            {
+                "variantPrice": "27K",
+                "variantName": "250gr",
+                "price": 27000
+            },
+            {
+                "variantPrice": "50K",
+                "variantName": "50K / 500gr",
+                "price": 50000
+            },
+            {
+                "variantPrice": "100K",
+                "variantName": "100K / 1kg",
+                "price": 100000
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Palm Sugar",
+        "image": "https://mavin.my.id/assets/palmsugar.jpg",
+        "variants": [
+            {
+                "variantPrice": "27K",
+                "variantName": "250gr",
+                "price": 27000
+            },
+            {
+                "variantPrice": "50K",
+                "variantName": "500gr",
+                "price": 50000
+            },
+            {
+                "variantPrice": "100K",
+                "variantName": "1kg",
+                "price": 100000
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Peanut Choco",
+        "image": "https://mavin.my.id/assets/peanutchoco.jpg",
+        "variants": [
+            {
+                "variantPrice": "27K",
+                "variantName": "250gr",
+                "price": 27000
+            },
+            {
+                "variantPrice": "50K",
+                "variantName": "500gr",
+                "price": 50000
+            },
+            {
+                "variantPrice": "100K",
+                "variantName": "1kg",
+                "price": 100000
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Bimoli Choco",
+        "image": "https://mavin.my.id/assets/bimolichoco.jpg",
+        "variants": [
+            {
+                "variantPrice": "27K",
+                "variantName": "250gr",
+                "price": 27000
+            },
+            {
+                "variantPrice": "50K",
+                "variantName": "500gr",
+                "price": 50000
+            },
+            {
+                "variantPrice": "100K",
+                "variantName": "1kg",
+                "price": 100000
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Kastangle",
+        "image": "https://mavin.my.id/assets/kastangle.jpg",
+        "variants": [
+            {
+                "variantPrice": "27K",
+                "variantName": "250gr",
+                "price": 27000
+            },
+            {
+                "variantPrice": "50K",
+                "variantName": "500gr",
+                "price": 50000
+            },
+            {
+                "variantPrice": "100K",
+                "variantName": "1kg",
+                "price": 100000
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Kue Sus",
+        "image": "https://mavin.my.id/assets/kuesus.jpg",
+        "variants": [
+            {
+                "variantPrice": "25K",
+                "variantName": "10 pcs",
+                "price": 25000
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Rollcake Cheese Pandan",
+        "image": "https://mavin.my.id/assets/rollcake-chesepandan.jpg",
+        "variants": [
+            {
+                "variantPrice": "25K",
+                "variantName": "",
+                "price": 25000
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Rollcake Taro",
+        "image": "https://mavin.my.id/assets/rollcake-taro.jpg",
+        "variants": [
+            {
+                "variantPrice": "25K",
+                "variantName": "",
+                "price": 25000
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Rollcake Choco Oreo",
+        "image": "https://mavin.my.id/assets/rollcake-chocooreo.jpeg",
+        "variants": [
+            {
+                "variantPrice": "25K",
+                "variantName": "",
+                "price": 25000
+            }
+        ]
+    }
+]
