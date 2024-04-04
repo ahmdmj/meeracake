@@ -25,7 +25,7 @@ $(document).ready(function () {
                     <div class="box">
                         <h3 style="color: #A25223;">${product.name}</h3>
                         <div class="price"><sup>Rp</sup>${product.variants[0].price}<span> / ${product.variants[0].variantName}</span></div>
-                        <img src="${product.image}" class="img-fluid" alt="${product.name}" style="width: 100%;">
+                        <img src="${product.image}" class="img-fluid" alt="${product.name}" >
                         <a href="#" class="btn-buy" data-id="${product.id}">Beli</a>
                     </div>
                 </div>`;
