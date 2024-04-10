@@ -4,7 +4,7 @@ Project  untuk membantu UMKM Sekitar
         
 
 ## About  
-Meeracake adalah sebuah usaha UMKM Mandiri asal Makassar yang berdedikasi untuk menghadirkan pengalaman rasa yang istimewa melalui kreasi kue-kue kering berkualitas tinggi. Dikenal dengan julukan "MeeraCake", kami bangga menyajikan produk-produk kami yang manis dan gurih, dengan mengutamakan penggunaan bahan-bahan premium yang dipilih dengan cermat. Di balik setiap gigitan kue kami terdapat dedikasi dan komitmen kami untuk memberikan kelezatan yang tak terlupakan kepada para pelanggan kami.
+Meeracake adalah sebuah usaha UMKM Mandiri asal Makassar yang berdedikasi untuk menghadirkan pengalaman rasa yang istimewa melalui kreasi kue-kue kering berkualitas tinggi. Dikenal dengan julukan "Si Magur (Manis dan Gurih)", kami bangga menyajikan produk-produk kami yang manis dan gurih, dengan mengutamakan penggunaan bahan-bahan premium yang dipilih dengan cermat. Di balik setiap gigitan kue kami terdapat dedikasi dan komitmen kami untuk memberikan kelezatan yang tak terlupakan kepada para pelanggan kami.
 
   
                   
