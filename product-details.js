@@ -136,10 +136,10 @@ $(document).ready(function () {
         const deliveryAddress = $("#deliveryAddress").val().trim();
 
         // Membuat pesan WhatsApp
-        let message = "Halo! Saya ingin membuat pesanan";
+        let message = "Halo! Saya ingin membuat pesanan \n";
 
         // Menambahkan nama produk ke pesan
-        message += "\nDaftar Pesanan:";
+        message += "\nDaftar Pesanan: \n";
         message += "\n " + productName;
 
         // Mendapatkan daftar pesanan
@@ -153,7 +153,7 @@ $(document).ready(function () {
 
         // Loop melalui setiap item di daftar pesanan dan menambahkannya ke pesan dengan baris baru
         orderListItems.each(function () {
-            message += "\n- " + $(this).text();
+            message += "\n- " + $(this).text() + "\n";
         });
 
         // Menambahkan total harga pesanan ke pesan
