@@ -132,12 +132,15 @@ $(document).ready(function () {
         // Mendapatkan total harga pesanan
         const totalPrice = $("#totalPrice").text();
 
+        // Mendapatkan alamat pengantaran yang ditulis oleh pengguna
+        const deliveryAddress = $("#deliveryAddress").val().trim();
+
         // Membuat pesan WhatsApp
-        let message = "Halo Ka, Saya ingin pesan kue : ";
+        let message = "Halo! Saya ingin membuat pesanan";
 
         // Menambahkan nama produk ke pesan
-        message += "Daftar Pesanan : ";
-        message += "Nama Kue : " + productName + " ";
+        message += "\nDaftar Pesanan:";
+        message += "\n " + productName;
 
         // Mendapatkan daftar pesanan
         const orderListItems = $("#orderList li");
@@ -150,15 +153,23 @@ $(document).ready(function () {
 
         // Loop melalui setiap item di daftar pesanan dan menambahkannya ke pesan dengan baris baru
         orderListItems.each(function () {
-            message += "- " + $(this).text() + " ";
+            message += "\n- " + $(this).text();
         });
 
         // Menambahkan total harga pesanan ke pesan
-        message += "Total : " + totalPrice;
+        message += "\nTotal Yang Harus di Bayar : " + totalPrice;
+
+        // Menambahkan alamat pengantaran ke pesan jika diinput oleh pengguna
+        if (deliveryAddress !== "") {
+            message += "\nAlamat Pengantaran : " + deliveryAddress;
+        } else {
+            message += "\nAlamat Pengantaran : - ";
+        }
 
         // Mengarahkan ke aplikasi WhatsApp dengan pesan otomatis
-        window.location.href = `https://wa.me/6281245758576/?text=${encodeURIComponent(message)}`;
+        window.location.href = `https://wa.me/6282177561640/?text=${encodeURIComponent(message)}`;
     });
+
 
 
 });
