@@ -81,7 +81,7 @@ section {
 
 @media (max-width: 992px) {
     .breadcrumbs {
-        margin-top: 57px;
+        margin-top: 80px;
     }
 }
 
@@ -345,7 +345,7 @@ section {
     transition: 0.3s;
 }
 
-.navbar-mobile a,
+.header.header-scrolled .navbar-mobile a,
 .navbar-mobile a:focus {
     padding: 10px 20px;
     font-size: 15px;
