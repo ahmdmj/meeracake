@@ -24,7 +24,7 @@
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/products&details.css" rel="stylesheet">
 
     <title>Daftar - Produk</title>
 </head>
@@ -44,8 +44,8 @@
                     <li><a class="nav-link scrollto" href="index.html">Home</a></li>
                     <li><a class="nav-link scrollto" href="index.html##about">About</a></li>
                     <li><a class="nav-link scrollto" href="index.html#pelayanan">Pelayanan</a></li>
-                    <li><a class="nav-link scrollto" href="index.html##produk">Produk</a></li>
-                    <li><a class="nav-link scrollto" href="index.html##contact">Contact</a></li>
+                    <li><a class="nav-link scrollto" href="index.html#produk">Produk</a></li>
+                    <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
                     <li><a class="getstarted scrollto" href="products.html">Beli Yuk</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -74,7 +74,7 @@
 
                 <!-- Tambahkan form pencarian di sini -->
                 <div class="row gy-3 d-flex justify-content-center" data-aos="fade-left">
-                    <div class="col-lg-6 mb-3">
+                    <div class="col-lg-auto mb-3">
                         <form action="#" method="get" class="search-form">
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Cari produk..." id="search-input">
@@ -83,13 +83,39 @@
                             </div>
                         </form>
                     </div>
+
+                    <!-- Button untuk memunculkan gambar daftar produk -->
+                    <div class="col-lg-auto mb-3">
+                        <button class="btn text-white" id="showProductImageBtn" style="background-color: #A25021;">Lihat
+                            Semua
+                            Produk</button>
+                    </div>
                 </div>
-                <!-- Akhir form pencarian -->
-                <div id="product-list" class="row gy-3 d-flex justify-content-center" data-aos="fade-left">
-                    <!-- Product cards will be inserted here -->
-                </div>
+
+            </div>
+
+            <!-- Akhir form pencarian -->
+            <div id="product-list" class="row gy-3 d-flex justify-content-center" data-aos="fade-left">
+                <!-- Product cards will be inserted here -->
+            </div>
             </div>
         </section>
+
+        <!-- Modal untuk menampilkan gambar produk -->
+        <div class="modal fade" id="productModal" tabindex="-1" aria-labelledby="productModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="productModalLabel">Gambar Produk</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img id="productImage" class="img-fluid" alt="Gambar Produk">
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
     </main>
 
@@ -117,11 +143,11 @@
                     <div class="col-lg-2 col-6 footer-links">
                         <h4>Useful Links</h4>
                         <ul>
-                            <li><i class="bi bi-chevron-right"></i> <a href="index.html">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#about">About us</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="index.html#pelayanan">Pelayanan</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="#">Produk</a></li>
-                            <li><i class="bi bi-chevron-right"></i>
+                            <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+                            <li><a class="nav-link scrollto" href="index.html#about">About</a></li>
+                            <li><a class="nav-link scrollto" href="index.html#pelayanan">Pelayanan</a></li>
+                            <li><a class="nav-link scrollto" href="products.html">Produk</a></li>
+                            <li><a class="nav-link scrollto" href="index.html#contact">Contact</a></li>
                         </ul>
                     </div>
 
@@ -154,7 +180,7 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>Tim2Two</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>Meeracake Makassar</span></strong>. All Rights Reserved
             </div>
         </div>
     </footer><!-- End Footer -->
@@ -174,7 +200,7 @@
 
     <!-- Template Main JS File -->
     <script src="products.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/product&detail.js"></script>
 </body>
 
 </html>
