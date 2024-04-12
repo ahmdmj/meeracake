@@ -11,12 +11,12 @@
             },
             {
                 "variantPrice": "58K",
-                "variantName": "58K / 500gr",
+                "variantName": "500gr",
                 "price": 58000
             },
             {
                 "variantPrice": "110K",
-                "variantName": "110K / 1kg",
+                "variantName": "1kg",
                 "price": 110000
             }
         ]
@@ -314,7 +314,7 @@
         "variants": [
             {
                 "variantPrice": "25K",
-                "variantName": "",
+                "variantName": "10 Pcs",
                 "price": 25000
             }
         ]
@@ -326,7 +326,7 @@
         "variants": [
             {
                 "variantPrice": "25K",
-                "variantName": "",
+                "variantName": "Box",
                 "price": 25000
             }
         ]
@@ -338,7 +338,7 @@
         "variants": [
             {
                 "variantPrice": "25K",
-                "variantName": "",
+                "variantName": "Box",
                 "price": 25000
             }
         ]
@@ -350,7 +350,7 @@
         "variants": [
             {
                 "variantPrice": "25K",
-                "variantName": "",
+                "variantName": "Box",
                 "price": 25000
             }
         ]
@@ -361,9 +361,9 @@
         "image": "https://drscdn.500px.org/photo/1089826531/q%3D80_m%3D600/v2?sig=f017112c4ffccfc07697c797af39034c59ab54a0245d815b1ac55c021bdd50a4",
         "variants": [
             {
-                "variantPrice": "25K",
-                "variantName": "",
-                "price": 25000
+                "variantPrice": "35K",
+                "variantName": "Box",
+                "price": 35000
             }
         ]
     }
