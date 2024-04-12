@@ -27,7 +27,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/products&details.css" rel="stylesheet">
 
 </head>
 
@@ -99,11 +99,21 @@
                       <h4 class="my-2">Nama Produk</h4>
                       <strong id="product-name-detail" style="color: #A25021;"></strong>
                     </div>
-                    </h4>
                   </li>
                 </ul>
                 <input type="hidden" name="product" id="product" value="">
                 <ul id="variant-list" class="list-group mb-3"></ul>
+
+                <!-- Alamat Pengantaran -->
+                <div class="form-group">
+                  <label for="deliveryAddress" style="color: #A25021;">
+                    Alamat Pengantaran
+                    <sup><small><i>(Hanya Makassar dan Sekitarnya)</i></small></sup>
+                  </label>
+                  <input type="text" class="form-control" id="deliveryAddress" placeholder="Masukkan alamat pengantaran">
+                </div>
+
+
                 <ul class="list-group mb-3">
                   <li class="list-group-item d-flex justify-content-between lh-sm">
                     <div>
@@ -118,8 +128,7 @@
                     <strong id="totalPrice" style="color: #A25021;">Rp. 0</strong>
                   </li>
                 </ul>
-                <button class="btn-buy w-100" type="button" id="continueToCheckout">Continue to
-                  checkout</button>
+                <button class="btn-buy w-100" type="button" id="continueToCheckout">Pesan Sekarang</button>
               </form>
             </div>
           </div>
@@ -127,6 +136,7 @@
       </div>
     </section>
     <!-- End Portfolio Details Section -->
+
 
 
 
@@ -148,10 +158,9 @@
             <p>Dibuat dengan menggunakan bahan-bahan premium sehingga
               rasa dan kualitasnya terjaga</p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://wa.me/+6282177561640" class="whatsapp"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://maps.app.goo.gl/BA9vaP23REQpPh2v9" class="maps"><i class="bi bi-map"></i></a>
+              <a href="https://www.instagram.com/meeracake/" class="instagram"><i class="bi bi-instagram"></i></a>
             </div>
           </div>
 
@@ -195,7 +204,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Tim2Two</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Meeracake Makassar</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -214,7 +223,7 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/product&detail.js"></script>
   <script src="product-details.js"></script>
 
 </body>
