@@ -21,7 +21,7 @@ $(document).ready(function () {
         .then(function (products) {
             var productList = $("#product-list");
             products.forEach(function (product) {
-                var productCard = `<div class="col-lg-3 col-md-3" data-aos="zoom-in" data-aos-delay="200">
+                var productCard = `<div class="col-lg-3 col-md-3"  data-aos-delay="100">
                     <div class="box">
                         <h3 style="color: #A25223;">${product.name}</h3>
                         <div class="price"><sup>Rp</sup>${product.variants[0].price}<span> / ${product.variants[0].variantName}</span></div>
@@ -50,7 +50,6 @@ $(document).ready(function () {
         filterProducts(keyword);
     });
 
-
     // Function to filter products based on keyword
     function filterProducts(keyword) {
         $(".col-lg-3.col-md-3").each(function () {
@@ -63,5 +62,12 @@ $(document).ready(function () {
         });
     }
 
+    // Event handler for show product button click
+    $("#showProductImageBtn").on("click", function () {
+        // Ganti URL gambar produk di bawah sesuai kebutuhan
+        var productImageUrl = "assets/img/product/pricelist.jpg";
+        $("#productImage").attr("src", productImageUrl);
+        $("#productModal").modal("show");
+    });
 
 });
