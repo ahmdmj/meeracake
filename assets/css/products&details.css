@@ -298,6 +298,10 @@ section {
     transition: 0.5s;
 }
 
+.header.header-scrolled .mobile-nav-toggle {
+    color: #fff;
+}
+
 .mobile-nav-toggle.bi-x {
     color: #fff;
 }
